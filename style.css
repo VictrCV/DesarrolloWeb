@@ -1,0 +1,19 @@
+.colorFondo{
+    background-color: #ecf4f3;
+}
+.colorPrimario{
+    background-color: #68b0ab;
+}
+.colorSecundario{
+    background-color: #006a71;
+}
+.colorTerciario{
+    background-color: #ff7e67;
+}
+.textoPequeño{
+    font-size: 60%;
+}
+.textoCarrusel{
+    color: black;
+    text-align: center;
+}
