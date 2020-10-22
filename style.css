@@ -1,15 +1,30 @@
-.colorFondo{
-    background-color: #ecf4f3;
+:root{
+    --fondo: #ecf4f3;
+    --colorPrimario: #68b0ab;
+    --colorSecundario: #006a71;
+    --colorTerciario: #ff7e67;
+}
+
+.fondo{
+    background-color: var(--fondo);
 }
 .colorPrimario{
-    background-color: #68b0ab;
+    background-color: var(--colorPrimario);
 }
 .colorSecundario{
-    background-color: #006a71;
+    background-color: var(--colorSecundario);
 }
 .colorTerciario{
-    background-color: #ff7e67;
+    background-color: var(--colorTerciario);
 }
+#topButton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    cursor: pointer;
+    background-color: var(--colorTerciario) !important;
+  }
 .textoPequeño{
     font-size: 60%;
 }
