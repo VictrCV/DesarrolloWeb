@@ -35,3 +35,11 @@ function cita(santo){
 function ups(){
     alert("¡Ups! Aún no se ha implementado la página de este santo. Prueba seleccionar a Santa Teresa de Jesús uwu");
 }
+
+function getStars(){
+    $.get("https://api.github.com/repos/Victaerys/victaerys.github.io", (data, status) => {
+        document.getElementById("stars").innerHTML = data.stargazers_count;
+    });
+}
+
+window.onload = function () { getStars() };

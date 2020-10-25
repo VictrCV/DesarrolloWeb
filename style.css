@@ -51,3 +51,8 @@
     height: auto;
     padding-top: 5%;
 }
+
+.estrellas{
+    padding-right: 25px;
+    color: var(--colorTexto) !important;
+}
