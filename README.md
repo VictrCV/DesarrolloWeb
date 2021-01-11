@@ -1,5 +1,5 @@
-# victaerys.github.io
-Repositorio para CoreDumped Academy
+# Desarrollo Web
+Repositorio para practicar con el desarrollo web.
 
 Web:
-https://victaerys.github.io/
+https://victrcv.github.io/DesarrolloWeb/
