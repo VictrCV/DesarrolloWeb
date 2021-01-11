@@ -1,9 +1,8 @@
 :root{
-    --fondo: #f6eec7;
-    --colorPrimario: #f7d695;
-    --colorSecundario: #ee8972;
-    --colorTerciario: #d15a7c;
-    --colorTexto: #49422D;
+    --fondo: #ecf4f3;
+    --colorPrimario: #68b0ab;
+    --colorSecundario: #006a71;
+    --colorTerciario: #ff7e67;
 }
 
 .fondo{
@@ -38,7 +37,7 @@
 }
 
 .textoNavbar{
-    color: var(--colorTexto) !important;
+    color: default;
 }
 
 .textoLargo{
@@ -46,7 +45,7 @@
     font-size: 80%;
 }
 
-.imagenSanto{
+.escudoHeráldico{
     width: 25%;
     height: auto;
     padding-top: 5%;
@@ -54,5 +53,5 @@
 
 .estrellas{
     padding-right: 25px;
-    color: var(--colorTexto) !important;
+    
 }

@@ -25,19 +25,19 @@ function topFunction() {
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
-function cita(santo){
-    switch (santo){
-        case "teresadejesus":
-            alert("«Vivo sin vivir en mí, y tan alta vida espero, que muero porque no muero»");
+function lema(casa){
+    switch (casa){
+        case "targaryen":
+            alert("«Fuego y Sangre»");
     }
 }
 
 function ups(){
-    alert("¡Ups! Aún no se ha implementado la página de este santo. Prueba seleccionar a Santa Teresa de Jesús uwu");
+    alert("¡Ups! Aún no se ha implementado la página de esta casa. Prueba seleccionar la casa Targaryen uwu");
 }
 
 function getStars(){
-    $.get("https://api.github.com/repos/Victaerys/victaerys.github.io", (data, status) => {
+    $.get("https://api.github.com/repos/VictrCV/DesarrolloWeb", (data, status) => {
         document.getElementById("stars").innerHTML = data.stargazers_count;
     });
 }
